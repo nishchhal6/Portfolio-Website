@@ -814,7 +814,7 @@ function App() {
           Want to get my <span className="">full CV?</span>
         </p>
         <a
-          href="C:\Users\nishc\OneDrive\Desktop\project\Nishchhal's Resume.pdf"
+          href="/Nishchhal's Resume.pdf"
           download
           className="relative inline-flex items-center space-x-2 px-8 py-4 rounded-full font-bold text-lg bg-gradient-to-r from-green-400 via-cyan-400 to-teal-500 shadow-2xl hover:from-green-500 hover:to-teal-600 text-gray-900 ring-2 ring-green-300 hover:ring-4 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-cyan-300 animate-glow"
           // style={{
