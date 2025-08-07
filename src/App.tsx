@@ -209,7 +209,7 @@ function App() {
 
               {/* New Download CV button */}
               <a
-                href="C:\Users\nishc\OneDrive\Desktop\project\Nishchhal's Resume.pdf"
+                href="/Nishchhal's Resume.pdf"
                 download
                 className="flex items-center justify-center space-x-2 bg-gradient-to-r from-green-400 to-teal-500 hover:from-green-500 hover:to-teal-600 px-4 sm:px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-400/40 text-sm sm:text-base text-white"
               >
