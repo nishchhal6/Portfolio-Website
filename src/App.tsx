@@ -177,6 +177,21 @@ function App() {
                 Nishchhal Verma
               </span>
             </h1>
+            
+            {/* Profile Image */}
+            <div className="flex justify-center mb-6 sm:mb-8">
+              <div className="relative">
+                <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 p-1 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
+                  <img
+                    src="/20250809_193815(1).jpg"
+                    alt="Nishchhal Verma"
+                    className="w-full h-full object-cover rounded-full bg-gray-800"
+                  />
+                </div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400/20 via-purple-500/20 to-pink-500/20 animate-pulse"></div>
+              </div>
+            </div>
+            
             <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-6 sm:mb-8 font-mono text-green-400 min-h-[40px] sm:min-h-[50px] lg:min-h-[60px] flex items-center justify-center">
               <span className="typing-text">{currentText}</span>
               <span className="animate-pulse ml-1">|</span>
