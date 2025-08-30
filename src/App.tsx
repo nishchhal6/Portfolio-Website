@@ -26,7 +26,7 @@ function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const texts = [
-    "Frontend Developer",
+    "Full-Stack Web Developer",
     "React.js Enthusiast",
     "UI/UX Designer",
     "Problem Solver",
@@ -182,9 +182,9 @@ function App() {
               <span className="animate-pulse ml-1">|</span>
             </div>
             <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-              Aspiring Frontend Software Engineer passionate about creating
-              beautiful, interactive web experiences with modern technologies
-              and innovative solutions.
+              Proficient in Full Stack Web Development and passionate about
+              creating beautiful, interactive web experiences with modern
+              technologies and innovative solutions.
             </p>
 
             {/* Call-to-action buttons */}
@@ -209,7 +209,7 @@ function App() {
 
               {/* New Download CV button */}
               <a
-                href="/Nishchhal's Resume.pdf"
+                href="/Resume-Nishchhal Verma.pdf"
                 download
                 className="flex items-center justify-center space-x-2 bg-gradient-to-r from-green-400 to-teal-500 hover:from-green-500 hover:to-teal-600 px-4 sm:px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-400/40 text-sm sm:text-base text-white"
               >
@@ -559,10 +559,26 @@ function App() {
             <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
               {[
                 {
-                  title: "Ecommerce Website",
+                  title: "TravelHub",
                   date: "Aug 2025",
                   description:
-                    "Full-stack e-commerce platform with user authentication, product management, and order handling. Built from scratch in one day.",
+                    "Modern Travel Booking platform with AI Chatbot for help in Choose best option, Plane, Train and Buses all-in-one platform. Resarvation Management, and user authentication. Built by Me in just 3 Days.",
+                  color: "golden",
+                  features: [
+                    "Plane, Train, Buses",
+                    "AI Chatbot",
+                    "Reservation Management",
+                    "User Authentication",
+                    "Database Integration",
+                    "Responsive Design",
+                  ],
+                  link: "https://travel-hub-booking-website.vercel.app/", // yahan apne project ka actual link daal dijiye
+                },
+                {
+                  title: "PC Wallahh",
+                  date: "July 2025",
+                  description:
+                    "E-Commerce Website with user authentication, product management, and order handling. Built by Me.",
                   color: "cyan",
                   features: [
                     "User Authentication",
@@ -814,7 +830,7 @@ function App() {
           Want to get my <span className="">full CV?</span>
         </p>
         <a
-          href="/Nishchhal's Resume.pdf"
+          href="/Resume-Nishchhal Verma.pdf"
           download
           className="relative inline-flex items-center space-x-2 px-8 py-4 rounded-full font-bold text-lg bg-gradient-to-r from-green-400 via-cyan-400 to-teal-500 shadow-2xl hover:from-green-500 hover:to-teal-600 text-gray-900 ring-2 ring-green-300 hover:ring-4 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-cyan-300 animate-glow"
           // style={{
