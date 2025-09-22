@@ -26,7 +26,7 @@ function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const texts = [
-    "Full-Stack Web Developer",
+    "Frontend Web Developer",
     "React.js Enthusiast",
     "UI/UX Designer",
     "Problem Solver",
@@ -170,14 +170,13 @@ function App() {
         id="hero"
         className="min-h-screen flex items-center justify-center relative pt-16 sm:pt-20 pb-10" // pb-40 (10rem) - zyada space
       >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-5">
           <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-1000 delay-300">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6">
               <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                 Nishchhal Verma
               </span>
             </h1>
-            
             {/* Profile Image */}
             <div className="flex justify-center mb-6 sm:mb-8">
               <div className="relative">
@@ -191,13 +190,13 @@ function App() {
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400/20 via-purple-500/20 to-pink-500/20 animate-pulse"></div>
               </div>
             </div>
-            
+
             <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-6 sm:mb-8 font-mono text-green-400 min-h-[40px] sm:min-h-[50px] lg:min-h-[60px] flex items-center justify-center">
               <span className="typing-text">{currentText}</span>
               <span className="animate-pulse ml-1">|</span>
             </div>
             <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-              Proficient in Full Stack Web Development and passionate about
+              Proficient in Frontend Web Development and passionate about
               creating beautiful, interactive web experiences with modern
               technologies and innovative solutions.
             </p>
@@ -224,7 +223,7 @@ function App() {
 
               {/* New Download CV button */}
               <a
-                href="/Resume-Nishchhal Verma.pdf"
+                href="/Frontend-Resume-NV.pdf"
                 download
                 className="flex items-center justify-center space-x-2 bg-gradient-to-r from-green-400 to-teal-500 hover:from-green-500 hover:to-teal-600 px-4 sm:px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-400/40 text-sm sm:text-base text-white"
               >
@@ -275,7 +274,7 @@ function App() {
             </div>
           </div>
 
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce z-10">
+          <div className="mt-10 left-1/2 -translate-x-1/2 animate-bounce z-10">
             <button
               onClick={() => scrollTo("about")}
               className="text-cyan-400 hover:text-cyan-300 transition-colors"
@@ -324,10 +323,11 @@ function App() {
               </div>
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  I'm a passionate frontend developer with a strong foundation
-                  in modern web technologies. Currently pursuing my Bachelor's
-                  in Computer Applications while gaining real-world experience
-                  as a Frontend Developer Intern at Bharat Economic Forum.
+                  I'm a passionate Full-Stack Web developer with a strong
+                  foundation in modern web technologies. Currently pursuing my
+                  Bachelor's in Computer Applications while gaining real-world
+                  experience as a Frontend Developer Intern at Bharat Economic
+                  Forum.
                 </p>
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
                   I love creating intuitive, responsive web applications that
@@ -372,11 +372,11 @@ function App() {
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "HTML",
-                    "CSS",
                     "JavaScript",
+                    "tailwindCSS",
+                    "TypeScript",
                     "React.js",
-                    "TailwindCSS",
+                    "Vue.js",
                     "Bootstrap",
                   ].map((skill) => (
                     <span
@@ -395,12 +395,13 @@ function App() {
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "Python",
-                    "Java",
-                    "C",
+                    "MongoDB",
+                    "Node.js",
                     "Next.js",
-                    "VB.NET",
-                    "Machine Learning",
+                    "Express.js",
+                    "Python",
+                    "Angular",
+                    "Native",
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -448,7 +449,7 @@ function App() {
                   <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8 text-cyan-400 mt-1 flex-shrink-0" />
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
-                      Bachelor, Computer Applications
+                      Bachelor's of Computer Applications
                     </h3>
                     <p className="text-cyan-400 font-semibold mb-2 text-sm sm:text-base">
                       Dr. Bhimrao Ambedkar University, Agra
@@ -554,8 +555,8 @@ function App() {
                       <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                         Contributed to real-world project improvements using
-                        HTML, CSS, and React, enhancing project functionality
-                        and user interface
+                        TailwindCSS, Typescript and React, enhancing project
+                        functionality and user interface
                       </p>
                     </div>
                   </div>
@@ -618,32 +619,32 @@ function App() {
                   link: "https://example.com/portfolio",
                 },
                 {
-                  title: "Weather Info App",
-                  date: "Jun 2024",
+                  title: "SkillDossier.io",
+                  date: "Aug 2025",
                   description:
-                    "Real-time weather application with API integration, practicing asynchronous JavaScript and JSON handling.",
+                    "Skilldossier is a E-Learning Platform Modern Designed Website",
                   color: "purple",
                   features: [
-                    "API Integration",
-                    "Real-time Data",
-                    "Async JavaScript",
-                    "JSON Handling",
+                    "Beautifull Design",
+                    "User Friendly UI",
+                    "Light/Dark Mode Functionality",
+                    "Fully Responsive",
                   ],
-                  link: "https://example.com/weather-app",
+                  link: "https://skilldossiers.netlify.app/",
                 },
                 {
-                  title: "Student Result Management",
-                  date: "Mar 2024",
+                  title: "FlipCard-Game",
+                  date: "Sep 2025",
                   description:
-                    "Web interface for students to input details and view results with clean forms and table structure.",
+                    "Fully Functional Game with all Dificulty Level and Beautifull UI",
                   color: "blue",
                   features: [
-                    "Form Handling",
-                    "Data Display",
                     "Clean UI",
-                    "Student Portal",
+                    "Responsive For all Screens",
+                    "Proper Fuctionality",
+                    "React-Lucide Icons",
                   ],
-                  link: "https://example.com/student-result",
+                  link: "https://fliplycards.netlify.app/",
                 },
                 {
                   title: "Digital Clock App",
@@ -657,7 +658,7 @@ function App() {
                     "Styled Layout",
                     "Date Object",
                   ],
-                  link: "https://example.com/digital-clock",
+                  link: "https://fliplycards.netlify.app/",
                 },
               ].map((project, index) => (
                 <div
@@ -716,22 +717,22 @@ function App() {
             <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
               {[
                 {
-                  title: "Full Stack Web Development",
+                  title: "Web Development",
                   provider: "Hitesh Chaudhary - Udemy",
                   year: "2025",
                   color: "cyan",
-                },
-                {
-                  title: "Mastering Generative AI and Chat GPT",
-                  provider: "Sahil Garg - GeeksforGeeks",
-                  year: "2025",
-                  color: "green",
                 },
                 {
                   title: "React JS Complete Course",
                   provider: "Prakash Narsingrao Sakari - GeeksforGeeks",
                   year: "2025",
                   color: "purple",
+                },
+                {
+                  title: "Mastering Generative AI and Chat GPT",
+                  provider: "Sahil Garg - GeeksforGeeks",
+                  year: "2025",
+                  color: "green",
                 },
                 {
                   title: "Complete Data Science, ML, DL, NLP Bootcamp",
@@ -845,7 +846,7 @@ function App() {
           Want to get my <span className="">full CV?</span>
         </p>
         <a
-          href="/Resume-Nishchhal Verma.pdf"
+          href="/Frontend-Resume-NV.pdf"
           download
           className="relative inline-flex items-center space-x-2 px-8 py-4 rounded-full font-bold text-lg bg-gradient-to-r from-green-400 via-cyan-400 to-teal-500 shadow-2xl hover:from-green-500 hover:to-teal-600 text-gray-900 ring-2 ring-green-300 hover:ring-4 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-cyan-300 animate-glow"
           // style={{
