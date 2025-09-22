@@ -491,10 +491,10 @@ function App() {
                 <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 mt-1 flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
-                    Frontend Developer Intern
+                    Bharat Economic Forum
                   </h3>
                   <p className="text-purple-400 font-semibold mb-2 text-sm sm:text-base">
-                    Bharat Economic Forum
+                    Frontend Developer Intern
                   </p>
                   <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 mb-4 sm:mb-6">
                     <span className="text-gray-400 text-sm sm:text-base">
@@ -547,14 +547,14 @@ function App() {
                 <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 mt-1 flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
-                    Frontend Developer Intern
+                    Codec Technologies
                   </h3>
                   <p className="text-purple-400 font-semibold mb-2 text-sm sm:text-base">
-                    Bharat Economic Forum
+                    Frontend Developer Intern
                   </p>
                   <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 mb-4 sm:mb-6">
                     <span className="text-gray-400 text-sm sm:text-base">
-                      Jul 2025 - Present
+                      May 2025 - Aug 2025
                     </span>
                     <span className="text-gray-400 hidden sm:inline">•</span>
                     <span className="text-gray-400 text-sm sm:text-base">
@@ -565,33 +565,30 @@ function App() {
                     <div className="flex items-start space-x-3">
                       <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                        Identified and fixed bugs across multiple pages of the
-                        organization's websites, improving functionality and
-                        user experience
+                        Developed and implemented Frontend using 
+                        JavaScript (React.js, redux.js) with Tailwind.
                       </p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                        Enhanced UI/UX design for improved responsiveness and
-                        modern user experience, leading to increased user
-                        engagement
+                        Created and managed user Friendly UI for 
+                        user authorization and access control.
                       </p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                        Collaborated closely with the developer committee using
-                        VS Code to ensure uniformity and visual consistency
-                        across all industry-related pages
+                        Successfully completed a comprehensive Frontend developer internship, 
+                        earning a certificate of completion and a letter of recommendation for
+                        strong performance and technical skills.
                       </p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                        Contributed to real-world project improvements using
-                        TailwindCSS, Typescript and React, enhancing project
-                        functionality and user interface
+                        Gained hands-on experience in building and maintaining web applications, 
+                        contributing to both front-end and back-end development cycles.
                       </p>
                     </div>
                   </div>
