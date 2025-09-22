@@ -376,36 +376,13 @@ function App() {
                     "tailwindCSS",
                     "TypeScript",
                     "React.js",
+                    "Redux.js",
                     "Vue.js",
                     "Bootstrap",
                   ].map((skill) => (
                     <span
                       key={skill}
                       className="skill-tag bg-cyan-500/20 text-cyan-300 border-cyan-500/30"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <div className="skill-card">
-                <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-green-400 mb-3 sm:mb-4" />
-                <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-white">
-                  Backend & More
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {[
-                    "MongoDB",
-                    "Node.js",
-                    "Next.js",
-                    "Express.js",
-                    "Python",
-                    "Angular",
-                    "Native",
-                  ].map((skill) => (
-                    <span
-                      key={skill}
-                      className="skill-tag bg-green-500/20 text-green-300 border-green-500/30"
                     >
                       {skill}
                     </span>
@@ -420,6 +397,8 @@ function App() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "Git & GitHub",
+                    "WordPress",
+                    "Shopify",
                     "VS Code",
                     "Chrome DevTools",
                     "Generative AI",
@@ -597,26 +576,33 @@ function App() {
                     "E-Commerce Website with user authentication, product management, and order handling. Built by Me.",
                   color: "cyan",
                   features: [
-                    "User Authentication",
-                    "Product Management",
-                    "Database Integration",
+                    "Modern Cards",
+                    "Cart Function",
+                    "Visual Colour Mode",
+                    "Clean UI",
+                    "All PC Parts",
+                    "Searching Feature",
                     "Responsive Design",
                   ],
-                  link: "https://pcwallahh.netlify.app/", // yahan apne project ka actual link daal dijiye
+                  link: "https://pcwallahh.netlify.app/",
                 },
                 {
                   title: "Personal Portfolio",
-                  date: "Feb 2024",
+                  date: "Feb 2025",
                   description:
                     "Responsive portfolio showcasing skills, projects, and contact information with modern design principles.",
                   color: "green",
                   features: [
+                    "Beautifull Design",
+                    "Background Animation",
+                    "Clean UI",
+                    "Working Buttons",
                     "Responsive Design",
                     "Modern UI/UX",
                     "Mobile-First",
                     "Interactive Elements",
                   ],
-                  link: "https://example.com/portfolio",
+                  link: "https://portfolio-website-two-theta-51.vercel.app/",
                 },
                 {
                   title: "SkillDossier.io",
@@ -625,21 +611,25 @@ function App() {
                     "Skilldossier is a E-Learning Platform Modern Designed Website",
                   color: "purple",
                   features: [
-                    "Beautifull Design",
-                    "User Friendly UI",
+                    "Modern Dashboard",
+                    "Trainer Profile",
                     "Light/Dark Mode Functionality",
                     "Fully Responsive",
+                    "Modern UI/UX",
+                    "Mobile-First",
+                    "Interactive Elements",
                   ],
                   link: "https://skilldossiers.netlify.app/",
                 },
                 {
                   title: "FlipCard-Game",
-                  date: "Sep 2025",
+                  date: "July 2025",
                   description:
                     "Fully Functional Game with all Dificulty Level and Beautifull UI",
                   color: "blue",
                   features: [
                     "Clean UI",
+                    "Animation Background",
                     "Responsive For all Screens",
                     "Proper Fuctionality",
                     "React-Lucide Icons",
@@ -647,18 +637,19 @@ function App() {
                   link: "https://fliplycards.netlify.app/",
                 },
                 {
-                  title: "Digital Clock App",
-                  date: "Apr 2024",
+                  title: "AI-Contracts",
+                  date: "Sep 2025",
                   description:
-                    "Real-time digital clock with styled layout using JavaScript Date object and DOM manipulation.",
+                    "AI-Contracts is a Documents Collecting Website Where we can Store Our Documents, There is a AI Searching Feature for searching Related Document As per the input.",
                   color: "pink",
                   features: [
                     "Real-time Updates",
-                    "DOM Manipulation",
-                    "Styled Layout",
-                    "Date Object",
+                    "Modern Design",
+                    "Beautifull Transitions",
+                    "File Uploading",
+                    "Smooth UI",
                   ],
-                  link: "https://fliplycards.netlify.app/",
+                  link: "https://ai-contracts-beta.vercel.app/",
                 },
               ].map((project, index) => (
                 <div
