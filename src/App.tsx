@@ -542,8 +542,8 @@ function App() {
                 </div>
               </div>
             </div>
-             <div className="experience-card">
-              <div className="flex items-start space-x-3 sm:space-x-4 mt-5">
+             <div className="experience-card mt-5">
+              <div className="flex items-start space-x-3 sm:space-x-4">
                 <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 mt-1 flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
