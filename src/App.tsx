@@ -364,7 +364,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
             <h2 className="section-title">Skills & Technologies</h2>
-            <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8">
               <div className="skill-card">
                 <Code className="w-6 h-6 sm:w-8 sm:h-8 text-cyan-400 mb-3 sm:mb-4" />
                 <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-white">
