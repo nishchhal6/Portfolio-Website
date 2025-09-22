@@ -542,6 +542,62 @@ function App() {
                 </div>
               </div>
             </div>
+             <div className="experience-card">
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
+                    Frontend Developer Intern
+                  </h3>
+                  <p className="text-purple-400 font-semibold mb-2 text-sm sm:text-base">
+                    Bharat Economic Forum
+                  </p>
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 mb-4 sm:mb-6">
+                    <span className="text-gray-400 text-sm sm:text-base">
+                      Jul 2025 - Present
+                    </span>
+                    <span className="text-gray-400 hidden sm:inline">•</span>
+                    <span className="text-gray-400 text-sm sm:text-base">
+                      Remote
+                    </span>
+                  </div>
+                  <div className="space-y-3 sm:space-y-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        Identified and fixed bugs across multiple pages of the
+                        organization's websites, improving functionality and
+                        user experience
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        Enhanced UI/UX design for improved responsiveness and
+                        modern user experience, leading to increased user
+                        engagement
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        Collaborated closely with the developer committee using
+                        VS Code to ensure uniformity and visual consistency
+                        across all industry-related pages
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        Contributed to real-world project improvements using
+                        TailwindCSS, Typescript and React, enhancing project
+                        functionality and user interface
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
