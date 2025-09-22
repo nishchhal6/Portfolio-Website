@@ -323,14 +323,14 @@ function App() {
               </div>
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  I'm a passionate Full-Stack Web developer with a strong
+                  I'm a passionate Frontend Web developer with a strong
                   foundation in modern web technologies. Currently pursuing my
                   Bachelor's in Computer Applications while gaining real-world
                   experience as a Frontend Developer Intern at Bharat Economic
                   Forum.
                 </p>
                 <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  I love creating intuitive, responsive web applications that
+                  I love Designing Modern Websites, responsive web applications that
                   provide excellent user experiences. My journey in web
                   development is driven by curiosity and a constant desire to
                   learn and implement the latest technologies.
